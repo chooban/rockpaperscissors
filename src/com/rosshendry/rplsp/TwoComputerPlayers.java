@@ -10,7 +10,7 @@ public class TwoComputerPlayers {
 		Player aiOne = new RandomComputerPlayer( "HAL9000" );
 		Player aiTwo = new RandomComputerPlayer( "Sheldor" );
 		
-		RPLSPGame game = new RPLSPGame( aiOne, aiTwo, 5 );
+		RPLSPGame game = new RPLSPGame( aiOne, aiTwo );
 		game.play();
 	}
 
